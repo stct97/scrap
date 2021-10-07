@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 import requests
 
 # Capturamos la url ingresada en la variable "url"
-url = raw_input("Ingrese la URL: ")
+url = input("Ingrese la URL: ")
 
 # Capturamos el hml de la pagina web y creamos un objeto Response
-r  = requests.get("http://" +url)
+r  = requests.get("http://" + url)
 data = r.text
 print("")
 
