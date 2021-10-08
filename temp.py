@@ -6,6 +6,7 @@ import requests
 import time
 import os
  
+__author__ = print('Author: stct97')
 # Creamos el Bucle infinito
 while True:
  
