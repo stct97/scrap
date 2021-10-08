@@ -33,4 +33,4 @@ while True:
  time.sleep(15)
   
  # Boramos los datos viejos, para Windows es "cls"
- os.system("clear")
+ os.system("cls")
